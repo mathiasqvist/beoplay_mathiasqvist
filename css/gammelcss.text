@@ -1,0 +1,303 @@
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        src: local('Open Sans'), local('OpenSans'), url('http://themes.googleusercontent.com/static/fonts/opensans/v5/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
+    }
+    
+    @font-face {
+        font-family: got;
+        src: url("fonts/ufonts.com_gotham-thin.woff") format('woff'), url("fonts/ufonts.com_gotham-thin.ttf");
+    }
+    
+    @font-face {
+        font-family: got;
+        font-weight: bold;
+        src: url("ufonts.com_gotham-bold-2-opentype.otf");
+    }
+    
+    #container {
+        width: 1207px;
+        margin: auto;
+        margin-top: 10px;
+    }
+    
+    .logo {
+        position: absolute;
+    }
+    
+    ul {
+        padding: 20px;
+        list-style: none;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    li {
+        display: inline;
+    }
+    
+    li a {
+        text-decoration: none;
+        font-family: got, 'open sans', Courier New, Palatino Linotype, georgia;
+        margin-left: 45px;
+        font-weight: lighter;
+    }
+    
+    #menu1 a {
+        color: #959595;
+        font-size: 1.4em;
+    }
+    
+    .breaklinetop {
+        width: 800px;
+        border: none;
+        height: 0.5px;
+        /* Set the hr color */
+        color: #e2dfdf;
+        /* old IE */
+        background-color: #e2dfdf;
+        /* Modern Browsers */
+        margin-left: 220px;
+    }
+    
+    #menu2 a {
+        color: #959595;
+        font-size: 1.00em;
+        margin-right: -10px;
+    }
+    
+    #menu2 a:focus {
+        font-weight: 900;
+        color: #575757;
+        text-decoration: underline;
+    }
+    
+    .buy {
+        background-color: #3f3f3f;
+        border: none;
+        color: white;
+        border-radius: 100px;
+        padding-top: 7px;
+        padding-bottom: 4px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 0.9em;
+        margin-left: 30px;
+        font-family: got, 'open sans', Courier New, Palatino Linotype, georgia;
+        font-weight: lighter;
+    }
+    
+    h1,
+    p,
+    a {
+        font-family: got, 'open sans', Courier New;
+        font-weight: lighter;
+    }
+    
+    .article {
+        background-color: #f1f1f1;
+        width: 1207px;
+        height: 530px;
+    }
+    
+    .product {
+        margin-left: 100px;
+    }
+    
+    .article h1 {
+        color: #959595;
+        font-size: 3em;
+        position: relative;
+        margin-left: 600px;
+        margin-top: -350px;
+    }
+    
+    .producttext {
+        position: relative;
+        color: #959595;
+        width: 410px;
+        margin-left: 600px;
+        margin-top: -30px;
+        font-size: 1.30em;
+    }
+    
+    .price {
+        margin-left: 600px;
+        color: #959595;
+        margin-top: 80px;
+        font-size: 1.20em;
+    }
+    
+    #boks2 {
+        width: 1207px;
+        height: 110px;
+        background-color: #292929;
+        color: #8a8a8a;
+        align-content: center;
+        text-align: center;
+        margin-top: 25px;
+    }
+    
+    #boks2 li a {
+        font-family: got, 'open sans', Courier New, Palatino Linotype, georgia;
+        font-weight: lighter;
+    }
+    
+    .textbottom a,
+    label {
+        color: #8a8a8a;
+        font-size: 20px;
+        margin-right: -10px;
+    }
+    
+    .textbottom li {
+        float: left;
+        margin-left: -10px;
+    }
+    
+    label {
+        margin-left: 25px;
+        font-family: got, 'open sans', Courier New, Palatino Linotype, georgia;
+        font-weight: lighter;
+    }
+    
+    .textbottom2 a {
+        color: white;
+        font-size: 14px;
+    }
+    
+    .textbottom2 {
+        margin-top: -20px;
+    }
+    
+    #shipping {
+        border: none;
+        margin-left: 30px;
+        background-color: black;
+        color: #8a8a8a;
+        width: 160px;
+        height: 24px;
+    }
+    
+    section {
+        background-color: #333333;
+        display: flex;
+        width: 1207px;
+        height: 360px;
+        flex-direction: column;
+        z-index: 1;
+    }
+    
+    section p {
+        color: white;
+        height: 100px;
+        width: 100%;
+        font-size: 3.5em;
+        text-align: center;
+        margin-top: 120px;
+    }
+    
+    section a {
+        color: #5a5959;
+        font-size: 15px;
+        text-align: center;
+        display: block;
+        height: 100px;
+        margin-top: -60px;
+    }
+    
+    footer {
+        background-color: #333333;
+        text-align: center;
+        margin-top: -60px;
+        width: 1207px;
+        height: 60px;
+        z-index: 1;
+    }
+    
+    footer p {
+        display: inline-flex;
+        font-size: 14px;
+        color: #5a5959;
+    }
+    
+    footer a {
+        text-decoration: none;
+        color: #5a5959;
+    }
+    
+    footer a,
+    footer p {
+        margin-top: 10px;
+    }
+    
+    #modal-box {
+        width: 602px;
+        height: 261px;
+        background-color: #f0eee9;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
+    
+    #modal-box p {
+        font-family: got;
+        color: #bcb2a5;
+        display: inline-flex;
+        flex-direction: column;
+    }
+    
+    .signuptext {
+        font-size: 1.6em;
+        position: absolute;
+        margin-top: -230px;
+        margin-left: 320px;
+        width: 250px;
+    }
+    
+    .winnertext {
+        position: absolute;
+        margin-top: -150px;
+        margin-left: 320px;
+        width: 270px;
+    }
+    
+    #xbutton {
+        position: absolute;
+        background-color: #4f4f4f;
+        height: 30px;
+        width: 30px;
+        border-radius: 100%;
+        color: white;
+        margin-left: -15px;
+        margin-top: -15px;
+        text-decoration: none;
+        border-color: #4f4f4f;
+        border: 1px;
+    }
+    
+    #signup {
+        text-decoration: none;
+        color: #bcb2a5;
+        position: absolute;
+        margin-top: -70px;
+        margin-left: 310px;
+        width: 280px;
+        height: 33px;
+        background-color: #bcb2a5;
+        color: white;
+        font-size: 1.6em;
+        text-align: center;
+        padding-top: 11px;
+        border-radius: 10px;
+    }
+    
+    #modal-box img {
+        margin-right: 100%;
+        display: flex;
+    }
+    
+    #resultimg {
+        margin-left: 20px;
+    }
